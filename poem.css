@@ -1,5 +1,8 @@
 body {
-    background-color: #D5C6E0;
+    /* background-color: #D5C6E0; */
+    background-image: url("picture.jpg");
+    background-repeat: none;
+    background-size: 100%;
     color: #270722;
     text-align: center;
     font-size: 16px;
@@ -8,7 +11,7 @@ body {
 
   h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 60px;
   }
 
   footer{
