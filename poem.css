@@ -2,7 +2,9 @@ body {
     /* background-color: #D5C6E0; */
     background-image: url("picture.jpg");
     background-repeat: none;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
     color: #270722;
     text-align: center;
     font-size: 16px;
@@ -17,3 +19,17 @@ body {
   footer{
       font-size: 10px;
   }
+
+  /* .container{
+      display: block;
+      background-color: white;
+      width: 300px;
+      height: 250px;
+      text-align: center;
+      align-items: center;
+      
+  }
+
+    container after::{
+      opacity: 0.5;
+  } */
