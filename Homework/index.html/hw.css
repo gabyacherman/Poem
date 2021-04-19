@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i.postimg.cc/CMj83384/cute-heart-pattern-background-35322-816.jpg"),
+      hsl(0, 0%, 96%);
+    background-size: 250px;
+  }
+  
+  .heart {
+    margin: 5px;
+    animation: 0.8s infinite beatHeart;
+    color: #e00;
+    font-size: 300px;
+  }
+  
+  @keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .box {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  
+  
