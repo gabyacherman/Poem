@@ -8,6 +8,7 @@ color: var(--text)
 }
 
 h1{
+    font-size: 40px;
     color: black;
 }
 
@@ -19,4 +20,14 @@ p{
 a {
     text-decoration: none;
     text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    align-items: baseline;
+    margin-bottom: 20px;
   }
