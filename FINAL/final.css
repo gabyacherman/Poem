@@ -1,0 +1,22 @@
+:root {
+    --background: rgb(206, 236, 253);
+    --text: rgb(17, 37, 64);
+  }
+
+body{
+color: var(--text)
+}
+
+h1{
+    color: black;
+}
+
+p{
+    padding: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+  }
