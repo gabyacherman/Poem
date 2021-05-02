@@ -31,3 +31,9 @@ a {
     align-items: baseline;
     margin-bottom: 20px;
   }
+
+  .container{
+    padding: 0;
+    text-align: left;
+
+  }
