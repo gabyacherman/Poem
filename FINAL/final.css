@@ -47,3 +47,7 @@ a {
     column-gap: 10px;
   }
 
+  .title{
+      text-align: left;
+  }
+
