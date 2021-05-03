@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-    padding: 60px;
+    /* padding: 60px; */
     text-align: center;
 }
 
@@ -32,8 +32,18 @@ a {
     margin-bottom: 20px;
   }
 
+  img{
+      width: 100%;
+  }
+
   .container{
-    padding: 0;
     text-align: left;
 
   }
+
+  .column1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
