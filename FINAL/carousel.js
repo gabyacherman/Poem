@@ -25,6 +25,6 @@ function carousel() {
   // Now show the image
   x[slideIndex - 1].style.display = 'block';
 
-  // run this whole thing again after 2 seconds.
-  setTimeout(carousel, 3000);
+  // run this whole thing again after 5 seconds.
+  setTimeout(carousel, 5000);
 }
