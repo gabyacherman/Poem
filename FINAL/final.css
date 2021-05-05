@@ -1,53 +1,124 @@
 :root {
-    --background: rgb(206, 236, 253);
-    --text: rgb(17, 37, 64);
-  }
-
-body{
-color: var(--text)
+  --background: rgb(206, 236, 253);
+  --text: rgb(17, 37, 64);
 }
 
-h1{
-    font-size: 40px;
-    color: black;
+body {
+  color: var(--text);
 }
 
-p{
-    /* padding: 60px; */
-    text-align: center;
+header {
+  background-color: #4bb0eb;
+}
+h1 {
+  font-size: 40px;
+  color: black;
+}
+
+p {
+  /* padding: 60px; */
+  text-align: left;
 }
 
 a {
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 20px;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.activeLink {
+  color: #fd6255;
+}
+
+.container {
+  text-align: left;
+  border: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #bfbfbf;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin-bottom: 40px;
+}
+
+.grid h2 {
+  margin-top: 0;
+}
+
+#arrayImages {
+  margin-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#arrayImages img {
+  width: 100%;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
   }
-
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 20px;
-    align-items: baseline;
-    margin-bottom: 20px;
+  to {
+    opacity: 1;
   }
+}
 
-  img{
-      width: 100%;
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-
-  .container{
-    text-align: left;
-
+  to {
+    opacity: 1;
   }
+}
 
-  .column1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-  }
+/* RESOURCE PAGE */
+.websiteGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.website {
+  position: relative;
+}
 
-  .title{
-      text-align: left;
-  }
+.website a {
+  /* This is CSS for getting the link centered on the image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+  /* this is css for the link should look */
+  background-color: #fd6255;
+  /* top right bottom left */
+  padding: 10px 10px 5px 10px;
+  font-size: 21px;
+  color: white;
+}
