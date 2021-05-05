@@ -1,18 +1,19 @@
 :root {
-  --background: rgb(206, 236, 253);
-  --text: rgb(17, 37, 64);
+  --background: #F8F4E3;
+  --text: #053C5E;
 }
 
 body {
-  color: var(--text);
+  background-color: var(--background);
 }
 
 header {
-  background-color: #4bb0eb;
+  background-color: var(--text);
 }
+
 h1 {
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 p {
@@ -23,6 +24,11 @@ p {
 a {
   text-decoration: none;
   text-align: center;
+  color: white;
+}
+
+a:hover { 
+  color: #7C9EB2;
 }
 
 nav {
@@ -40,20 +46,20 @@ img {
 }
 
 .activeLink {
-  color: #fd6255;
+  color: #7C9EB2;
 }
-
-
 
 
 /* HOME PAGE */
 
 .intro{
-  /* padding: 45px; */
+  padding: 45px;
   justify-content: center;
   margin: auto 0;
   margin: 40px;
   margin-left: 70px;
+  background-color: var(--text);
+  color: white;
 }
 
 #arrayImages {
@@ -95,17 +101,17 @@ img {
 
 .container {
   text-align: left;
-  border: 1px solid black;
   width: 90%;
   margin: 0 auto;
-  background-color: #bfbfbf;
+  background-color: var(--text);
   padding: 20px;
+  color: white;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
+  column-gap: 15px;
   margin-bottom: 40px;
 }
 
