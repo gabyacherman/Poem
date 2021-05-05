@@ -125,6 +125,9 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 45px;
+  padding: 20px;
 }
 .website {
   position: relative;
@@ -138,9 +141,17 @@ img {
   transform: translate(-50%, -50%);
 
   /* this is css for the link should look */
-  background-color: #fd6255;
+  background-color: var(--text);
   /* top right bottom left */
-  padding: 10px 10px 5px 10px;
+  padding: 10px 10px 8px 10px;
   font-size: 21px;
   color: white;
+}
+
+.images img{
+opacity: 70%;
+}
+
+.close{
+  padding: 20px;
 }
