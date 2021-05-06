@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="final.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script laguage="javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destinations</title>
+    <link rel="stylesheet" href="slideshow.css" />
   </head>
 
   <header>
     <nav>
       <h1>U.S Travel Guides</h1>
-      <a href="index.html" >Home</a>
+      <a href="index.html">Home</a>
       <a href="destinations.html" class="activeLink">Destinations</a>
-      <a href="resources.html" >Resources</a>
+      <a href="resources.html">Resources</a>
     </nav>
   </header>
   <body>
@@ -36,7 +42,8 @@
             favorite Stephen King novel (for the full experience of Maine's most
             famous resident, of course), and a taste for lobster, and you'll be
             ready for anything.
-            <a href="https://www.travelandleisure.com/travel-guide/maine"> Learn more</a
+            <a href="https://www.travelandleisure.com/travel-guide/maine">
+              Learn more</a
             >
           </p>
           <h3 class="title">Things to do</h3>
@@ -48,7 +55,56 @@
             <li>Old Orchard Beach</li>
           </ul>
         </div>
-        <div><img src="pictures/maine.jpg" alt="Maine" /></div>
+        <div>
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">1 / 3</div> -->
+              <img src="pictures/maine 1.jpeg" />
+              <div class="text">Acadia National Park</div>
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">2 / 3</div> -->
+              <img src="pictures/maine.jpg" />
+              <div class="text">The Old Port and Portland Head Lighthouse</div>
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3 / 3</div> -->
+              <img src="pictures/maine 2.jpg" />
+              <div class="text">Marginal Way and Ogunquit Beaches</div>
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3 / 3</div> -->
+              <img src="pictures/maine 3.jpg" />
+              <div class="text">Pemaquid Point Light</div>
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3 / 3</div> -->
+              <img src="pictures/main 4.jpg" />
+              <div class="text">Old Orchard Beach</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+          <p>Test</p>
+        </div>
       </div>
 
       <div class="grid">
@@ -80,21 +136,22 @@
         </div>
       </div>
 
-
       <div class="grid">
         <div>
           <h2>Louisiana</h2>
           <p>
             Bordered to the south by the Gulf of Mexico, Louisiana is a mix of
-            swampland and farm country as well as a melting pot of French, African
-            and American cultures. Its capital, Baton Rouge, is home to the USS Kidd
-            Navy destroyer, while its largest city, New Orleans, is famous for its
-            colonial-era French Quarter and festive Mardi Gras, a raucous, city-wide
-            party celebrated with a colorful parades, loud music and outlandish
-            floats. Louisianans share an appreciation for the good things in life as
-            well as an outspoken enthusiasm for their state’s Creole heritage.
+            swampland and farm country as well as a melting pot of French,
+            African and American cultures. Its capital, Baton Rouge, is home to
+            the USS Kidd Navy destroyer, while its largest city, New Orleans, is
+            famous for its colonial-era French Quarter and festive Mardi Gras, a
+            raucous, city-wide party celebrated with a colorful parades, loud
+            music and outlandish floats. Louisianans share an appreciation for
+            the good things in life as well as an outspoken enthusiasm for their
+            state’s Creole heritage.
             <a href="https://www.fodors.com/world/north-america/usa/louisiana"
-              >Learn more</a>
+              >Learn more</a
+            >
           </p>
           <h3 class="title">Things to do</h3>
           <ul>
@@ -108,28 +165,30 @@
         <div><img src="pictures/louis.jpg" alt="Louisiana" /></div>
       </div>
 
-
-
       <div class="grid">
         <div><img src="pictures/massa.jpg" alt="Massachusetts" /></div>
 
         <div>
           <h2>Massachusetts</h2>
           <p>
-            Whether you’re seeking the bustle of historic Boston, trendy Martha’s
-        Vineyard or the pastoral tranquility of the Berkshires, Massachusetts
-        travel offers something for everyone. Though small in size,
-        Massachusetts is big on diversity, and travelers delight in a
-        multifaceted vacation experience. Travel to Massachusetts where history
-        buffs can relive events like The Boston Tea Party, Paul Revere’s Ride,
-        or The Salem Witch Trials. Beach lovers will revel in the sands of Cape
-        Cod and the islands of the Eastern Coastline and Nantucket. Antique
-        lovers can happily hunt for treasures in both rural and urban antique
-        shops. For the history buff, a trip to Boston is like traveling back in
-        time. For the bird-watcher, the Berkshires are the ultimate spot to dust
-        off the binoculars. And for the person just hoping to relax, Nantucket
-        offers a refuge unlike any other.
-        <a href="https://www.travelandleisure.com/travel-guide/massachusetts">Learn more</a>
+            Whether you’re seeking the bustle of historic Boston, trendy
+            Martha’s Vineyard or the pastoral tranquility of the Berkshires,
+            Massachusetts travel offers something for everyone. Though small in
+            size, Massachusetts is big on diversity, and travelers delight in a
+            multifaceted vacation experience. Travel to Massachusetts where
+            history buffs can relive events like The Boston Tea Party, Paul
+            Revere’s Ride, or The Salem Witch Trials. Beach lovers will revel in
+            the sands of Cape Cod and the islands of the Eastern Coastline and
+            Nantucket. Antique lovers can happily hunt for treasures in both
+            rural and urban antique shops. For the history buff, a trip to
+            Boston is like traveling back in time. For the bird-watcher, the
+            Berkshires are the ultimate spot to dust off the binoculars. And for
+            the person just hoping to relax, Nantucket offers a refuge unlike
+            any other.
+            <a
+              href="https://www.travelandleisure.com/travel-guide/massachusetts"
+              >Learn more</a
+            >
           </p>
           <h3>Things to do</h3>
           <ul>
@@ -146,29 +205,29 @@
         <div>
           <h2>Texas</h2>
           <p>
-            Texas is one of the largest states in America - second only to Alaska.
-        The nickname “The Lone Star State” is a reference to Texas’ days as an
-        independent republic and to the days when the state struggled to free
-        itself from Mexico. Those who visit Texas will find a state packed with
-        a variety of landscapes. From the desert in West Texas to the Piney
-        Woods in East Texas, those who travel to Texas will find that it is sure
-        to impress.
-        <a href="https://www.travelandleisure.com/travel-guide/texas">Learn more</a>
+            Texas is one of the largest states in America - second only to
+            Alaska. The nickname “The Lone Star State” is a reference to Texas’
+            days as an independent republic and to the days when the state
+            struggled to free itself from Mexico. Those who visit Texas will
+            find a state packed with a variety of landscapes. From the desert in
+            West Texas to the Piney Woods in East Texas, those who travel to
+            Texas will find that it is sure to impress.
+            <a href="https://www.travelandleisure.com/travel-guide/texas"
+              >Learn more</a
+            >
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>Padre Islands National Seashore</li>
-              <li>San Antonio River Walk</li>
-              <li>Guadalupe Mountains National Park</li>
-              <li>Hamilton Pool</li>
-              <li>Big Bend National Park</li>
-            </ul>
+          <ul>
+            <li>Padre Islands National Seashore</li>
+            <li>San Antonio River Walk</li>
+            <li>Guadalupe Mountains National Park</li>
+            <li>Hamilton Pool</li>
+            <li>Big Bend National Park</li>
+          </ul>
         </div>
         <div><img src="pictures/texas.jpg" alt="Texas" /></div>
       </div>
 
-
-      
       <div class="grid">
         <div><img src="pictures/cali.jpg" alt="California" /></div>
 
@@ -176,51 +235,54 @@
           <h2>California</h2>
           <p>
             Travel to California and walk through its towering redwood forests,
-            lounge on one of its world-class beaches, and sample its award-winning
-            wines. Visit its bustling cities and take in the breathtaking views,
-            experiences and culinary delights the golden state has to offer. Truly,
-            California travel offers something for everyone.
-            <a href="https://www.travelandleisure.com/travel-guide/california">Learn more</a>
+            lounge on one of its world-class beaches, and sample its
+            award-winning wines. Visit its bustling cities and take in the
+            breathtaking views, experiences and culinary delights the golden
+            state has to offer. Truly, California travel offers something for
+            everyone.
+            <a href="https://www.travelandleisure.com/travel-guide/california"
+              >Learn more</a
+            >
           </p>
           <h3>Things to do</h3>
-            <ul>
-              <li>Napa Valley</li>
-              <li>Joshua Tree National Park</li>
-              <li>Sequoia National Park</li>
-              <li>Yosemite National Park</li>
-              <li>Big Sur</li>
-            </ul>
+          <ul>
+            <li>Napa Valley</li>
+            <li>Joshua Tree National Park</li>
+            <li>Sequoia National Park</li>
+            <li>Yosemite National Park</li>
+            <li>Big Sur</li>
+          </ul>
         </div>
-      </div> 
+      </div>
 
       <div class="grid">
         <div>
           <h2>Utah</h2>
           <p>
             Boasting 12 national parks, Utah makes for a wild playground for the
-            adventurous outdoorsman. From red rock canyons and sandstone desert in
-            the South, to the snow-capped Wasatch mountain peaks in the North, the
-            diverse scenery of this western state will stun even the most seasoned
-            traveler. Formerly a conservative Mormon territory, the state and in
-            particular, Salk Lake City and Park City, have developed into
-            progressive towns with bustling nightlife and enticing food scenes.
-            Visit Utah to experience its dramatic landscape and unique culture and
-            history.
+            adventurous outdoorsman. From red rock canyons and sandstone desert
+            in the South, to the snow-capped Wasatch mountain peaks in the
+            North, the diverse scenery of this western state will stun even the
+            most seasoned traveler. Formerly a conservative Mormon territory,
+            the state and in particular, Salk Lake City and Park City, have
+            developed into progressive towns with bustling nightlife and
+            enticing food scenes. Visit Utah to experience its dramatic
+            landscape and unique culture and history.
             <a href="https://www.travelandleisure.com/travel-guide/utah"
-              >Learn more</a>
+              >Learn more</a
+            >
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>Zion National Park</li>
-              <li>Lake Powell</li>
-              <li>Bryce Canyon National Park</li>
-              <li>Canyonlands National Park</li>
-              <li>Bonneville Salt Flats</li>
-            </ul>
+          <ul>
+            <li>Zion National Park</li>
+            <li>Lake Powell</li>
+            <li>Bryce Canyon National Park</li>
+            <li>Canyonlands National Park</li>
+            <li>Bonneville Salt Flats</li>
+          </ul>
         </div>
         <div><img src="pictures/utah.jpg" alt="Utah" /></div>
       </div>
-
 
       <div class="grid">
         <div><img src="pictures/alaska.jpg" alt="Alaska" /></div>
@@ -228,56 +290,59 @@
         <div>
           <h2>Alaska</h2>
           <p>
-            Alaska lands on so many travelers' bucket lists because even though it's
-            part of the United States, it feels like a world apart. Indeed, the 49th
-            state still has a lot of seemingly untouched frontier to explore.
-            Whether you visit Alaska as part of a cruise, or rent an RV to take on
-            the ultimate road trip, there are many experiences here that you just
-            can't find anywhere else. The Alaskan Native communities that still live
-            here add vivid culture to the landscape, while wildlife - the "big five"
-            of bears, wolves, Dall sheep, caribou and moose - thrive in Denali
-            National Park, as well as all over the state - you can even see the
-            occasional moose loping down the street in Alaska's biggest city,
-            Anchorage.
-            <a href="https://www.travelandleisure.com/travel-guide/alaska">Learn more</a>
+            Alaska lands on so many travelers' bucket lists because even though
+            it's part of the United States, it feels like a world apart. Indeed,
+            the 49th state still has a lot of seemingly untouched frontier to
+            explore. Whether you visit Alaska as part of a cruise, or rent an RV
+            to take on the ultimate road trip, there are many experiences here
+            that you just can't find anywhere else. The Alaskan Native
+            communities that still live here add vivid culture to the landscape,
+            while wildlife - the "big five" of bears, wolves, Dall sheep,
+            caribou and moose - thrive in Denali National Park, as well as all
+            over the state - you can even see the occasional moose loping down
+            the street in Alaska's biggest city, Anchorage.
+            <a href="https://www.travelandleisure.com/travel-guide/alaska"
+              >Learn more</a
+            >
           </p>
           <h3>Things to do</h3>
-            <ul>
-              <li>Denali National Park</li>
-              <li>Tracy Arm Fjord</li>
-              <li>Glacier Bay National Park</li>
-              <li>Kenai Fjords</li>
-              <li>Alaska Native Heritage Center</li>
-            </ul>
+          <ul>
+            <li>Denali National Park</li>
+            <li>Tracy Arm Fjord</li>
+            <li>Glacier Bay National Park</li>
+            <li>Kenai Fjords</li>
+            <li>Alaska Native Heritage Center</li>
+          </ul>
         </div>
-      </div> 
+      </div>
 
       <div class="grid">
         <div>
           <h2>Hawaii</h2>
           <p>
-            From snowcapped volcanoes to rainforests to lava-rock deserts, Hawaii is
-        much more than the parade of high-rise hotels that hug glorious Waikiki
-        Beach. The push and pull between highly developed tourist apex, ancient
-        Polynesian culture, and natural paradise is palpable in the complex 50th
-        state. It is where everywhere the generous spirit of “aloha” is
-        infectious, making lifetime repeat visitors of many who set foot on
-        these exotic, yet very American, islands.
-        <a href="https://www.travelandleisure.com/travel-guide/hawaii">Learn more</a>
+            From snowcapped volcanoes to rainforests to lava-rock deserts,
+            Hawaii is much more than the parade of high-rise hotels that hug
+            glorious Waikiki Beach. The push and pull between highly developed
+            tourist apex, ancient Polynesian culture, and natural paradise is
+            palpable in the complex 50th state. It is where everywhere the
+            generous spirit of “aloha” is infectious, making lifetime repeat
+            visitors of many who set foot on these exotic, yet very American,
+            islands.
+            <a href="https://www.travelandleisure.com/travel-guide/hawaii"
+              >Learn more</a
+            >
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>Haleakalā National Park</li>
-              <li>Molokini Crater</li>
-              <li>Nā Pali Coast</li>
-              <li>Hanauma Bay</li>
-              <li>Diamond Head</li>
-            </ul>
+          <ul>
+            <li>Haleakalā National Park</li>
+            <li>Molokini Crater</li>
+            <li>Nā Pali Coast</li>
+            <li>Hanauma Bay</li>
+            <li>Diamond Head</li>
+          </ul>
         </div>
         <div><img src="pictures/hawaii.jpg" alt="Hawaii" /></div>
       </div>
-
-
 
       <div class="grid">
         <div><img src="pictures/newyork.jpg" alt="New York" /></div>
@@ -285,60 +350,60 @@
         <div>
           <h2>New York</h2>
           <p>
-            Besides the urban allure, culture, and shopping of Manhattan, much of
-        New York State is still, in many ways, waiting to be discovered on a
-        grand scale. The state is endowed with outstanding beauty and diversity
-        of scenery from one end to the other. The historic Hudson Valley, a
-        majestic river lined with elegant estates, is finally positioning itself
-        as a destination, not just a day trip from the city. The great
-        wilderness of the Adirondack and Catskill mountains is magnificent for
-        outdoors and sporting vacations, but those spots are also home to the
-        easygoing charms of small towns. The pristine glacial-lake beauty and
-        outstanding wineries of the Finger Lakes make it one of the state's most
-        spectacular, yet lesser-known destinations.
-        <a href="https://www.iloveny.com/things-to-do/">Learn more</a>
+            Besides the urban allure, culture, and shopping of Manhattan, much
+            of New York State is still, in many ways, waiting to be discovered
+            on a grand scale. The state is endowed with outstanding beauty and
+            diversity of scenery from one end to the other. The historic Hudson
+            Valley, a majestic river lined with elegant estates, is finally
+            positioning itself as a destination, not just a day trip from the
+            city. The great wilderness of the Adirondack and Catskill mountains
+            is magnificent for outdoors and sporting vacations, but those spots
+            are also home to the easygoing charms of small towns. The pristine
+            glacial-lake beauty and outstanding wineries of the Finger Lakes
+            make it one of the state's most spectacular, yet lesser-known
+            destinations.
+            <a href="https://www.iloveny.com/things-to-do/">Learn more</a>
           </p>
           <h3>Things to do</h3>
-            <ul>
-              <li>Letchworth State Park</li>
-              <li>Finger Lakes</li>
-              <li>Hudson Valley</li>
-              <li>Niagara Falls</li>
-              <li>Taughannock Falls</li>
-            </ul>
+          <ul>
+            <li>Letchworth State Park</li>
+            <li>Finger Lakes</li>
+            <li>Hudson Valley</li>
+            <li>Niagara Falls</li>
+            <li>Taughannock Falls</li>
+          </ul>
         </div>
-      </div> 
-
+      </div>
 
       <div class="grid">
         <div>
           <h2>Florida</h2>
           <p>
-            With its accessible and varied pleasures, Florida is a favorite of many.
-            Drawn to the colonial charm of St. Augustine, Miami's pulsing nightlife,
-            the glitz of Palm Beach, or the quiet expanse of the Everglades, almost
-            all visitors find something to love here. From the powdery white beaches
-            of the Panhandle to the vibrant coral reefs of the Florida Keys, the
-            ocean is always calling—for sailing, fishing, diving, swimming, and
-            other water sports. Stray off the path a few miles, and you might
-            glimpse a bit of the Florida of old, including cigar makers and
-            mermaids.
-            <a href="https://www.fodors.com/world/north-america/usa/florida">Learn more</a>
+            With its accessible and varied pleasures, Florida is a favorite of
+            many. Drawn to the colonial charm of St. Augustine, Miami's pulsing
+            nightlife, the glitz of Palm Beach, or the quiet expanse of the
+            Everglades, almost all visitors find something to love here. From
+            the powdery white beaches of the Panhandle to the vibrant coral
+            reefs of the Florida Keys, the ocean is always calling—for sailing,
+            fishing, diving, swimming, and other water sports. Stray off the
+            path a few miles, and you might glimpse a bit of the Florida of old,
+            including cigar makers and mermaids.
+            <a href="https://www.fodors.com/world/north-america/usa/florida"
+              >Learn more</a
+            >
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>The Everglades</li>
-              <li>The Florida Keys</li>
-              <li>Devil’s Den</li>
-              <li>Ginnie Springs</li>
-              <li>Ringling Museum</li>
-            </ul>
+          <ul>
+            <li>The Everglades</li>
+            <li>The Florida Keys</li>
+            <li>Devil’s Den</li>
+            <li>Ginnie Springs</li>
+            <li>Ringling Museum</li>
+          </ul>
         </div>
         <div><img src="pictures/keys copy.jpg" alt="Florida" /></div>
       </div>
 
-      
-      
       <div class="grid">
         <div><img src="pictures/colorado.webp" alt="Colorado" /></div>
 
@@ -346,105 +411,108 @@
           <h2>Colorado</h2>
           <p>
             Prepare to give yourself over to nature when you travel to Colorado,
-        home of the Rocky Mountains’ highest peaks. From the youthful and
-        cosmopolitan feel of downtown Denver to the natural splendor of the
-        Rockies and its surrounding ski resorts to the sparsely populated
-        prairie lands with their picturesque buttes and canyons, a visit to
-        Colorado offers an opportunity to marvel at a diverse natural landscape,
-        without sacrificing urban comforts entirely.
-        <a href="https://www.travelandleisure.com/travel-guide/colorado">Learn more</a>
+            home of the Rocky Mountains’ highest peaks. From the youthful and
+            cosmopolitan feel of downtown Denver to the natural splendor of the
+            Rockies and its surrounding ski resorts to the sparsely populated
+            prairie lands with their picturesque buttes and canyons, a visit to
+            Colorado offers an opportunity to marvel at a diverse natural
+            landscape, without sacrificing urban comforts entirely.
+            <a href="https://www.travelandleisure.com/travel-guide/colorado"
+              >Learn more</a
+            >
           </p>
           <h3>Things to do</h3>
-            <ul>
-              <li>Great Sand Dunes</li>
-              <li>Hanging Lake</li>
-              <li>Maroon Bells</li>
-              <li>Rocky Mountain National Park</li>
-              <li>Mesa Verde National Park</li>
-            </ul>
+          <ul>
+            <li>Great Sand Dunes</li>
+            <li>Hanging Lake</li>
+            <li>Maroon Bells</li>
+            <li>Rocky Mountain National Park</li>
+            <li>Mesa Verde National Park</li>
+          </ul>
         </div>
-      </div> 
-
-
+      </div>
 
       <div class="grid">
         <div>
           <h2>Oregon</h2>
           <p>
-            The State of Oregon is home to some of the most diverse landscape and
-            scenic views in the entire United States. A beautiful coastline, over
-            360 State Parks, and home to some of the top rated breweries and
-            restaurants in the nation, you will never run out of things to do while
-            you’re here.
+            The State of Oregon is home to some of the most diverse landscape
+            and scenic views in the entire United States. A beautiful coastline,
+            over 360 State Parks, and home to some of the top rated breweries
+            and restaurants in the nation, you will never run out of things to
+            do while you’re here.
             <a href="https://www.visittheusa.com/state/oregon">Learn more</a>
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>Cannon Beach</li>
-              <li>Crater Lake</li>
-              <li>Multnomah Falls</li>
-              <li>Mount Hood National Forest</li>
-              <li>Astoria</li>
-            </ul>
+          <ul>
+            <li>Cannon Beach</li>
+            <li>Crater Lake</li>
+            <li>Multnomah Falls</li>
+            <li>Mount Hood National Forest</li>
+            <li>Astoria</li>
+          </ul>
         </div>
         <div><img src="pictures/oregon.jpg" alt="Oregon" /></div>
       </div>
 
-
-
       <div class="grid">
-        <div><img src="pictures/north carolina .jpg" alt="North Carolina" /></div>
+        <div>
+          <img src="pictures/north carolina .jpg" alt="North Carolina" />
+        </div>
 
         <div>
           <h2>North Carolina</h2>
           <p>
-            From the Outer Banks’ secluded barrier islands to the Smoky Mountains’
-        majestic peaks, North Carolina is an outdoor enthusiast’s dream. There
-        are championship golf courses, beautiful gardens, scenic drives along
-        the Blue Ridge Parkway, and numerous opportunities for hiking, biking,
-        and fishing. Urban adventures include hip Asheville, host to America's
-        largest privately owned home, Biltmore Estate, and university-centric
-        cities like Raleigh, Durham, and Chapel Hill.
-        <a
-          href="https://www.visitnc.com/?utm_campaign=lga-digital-2018&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPEKirxggXNWvVTjwf51MaqWF5y2t4ylcYgcidgElkO-HUeabuLaBdcaAqhQEALw_wcB&gclsrc=aw.ds">Learn more</a>
+            From the Outer Banks’ secluded barrier islands to the Smoky
+            Mountains’ majestic peaks, North Carolina is an outdoor enthusiast’s
+            dream. There are championship golf courses, beautiful gardens,
+            scenic drives along the Blue Ridge Parkway, and numerous
+            opportunities for hiking, biking, and fishing. Urban adventures
+            include hip Asheville, host to America's largest privately owned
+            home, Biltmore Estate, and university-centric cities like Raleigh,
+            Durham, and Chapel Hill.
+            <a
+              href="https://www.visitnc.com/?utm_campaign=lga-digital-2018&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPEKirxggXNWvVTjwf51MaqWF5y2t4ylcYgcidgElkO-HUeabuLaBdcaAqhQEALw_wcB&gclsrc=aw.ds"
+              >Learn more</a
+            >
           </p>
           <h3>Things to do</h3>
-            <ul>
-              <li>Blue Ridge Parkway</li>
-              <li>Great Smoky Mountains</li>
-              <li>Asheville</li>
-              <li>Outer Banks</li>
-              <li>Ocracoke Island</li>
-            </ul>
+          <ul>
+            <li>Blue Ridge Parkway</li>
+            <li>Great Smoky Mountains</li>
+            <li>Asheville</li>
+            <li>Outer Banks</li>
+            <li>Ocracoke Island</li>
+          </ul>
         </div>
-      </div> 
-    
+      </div>
 
       <div class="grid">
         <div>
           <h2>Wyoming</h2>
           <p>
-            While the days of the Wild West seem like history to many of us, Wyoming
-        is still a land of cowboys and ranches. Even in high-end Jackson Hole,
-        western attire mixes with ski gear. True to that frontier spirit, it's a
-        land perfect for exploration. The world's oldest national park,
-        Yellowstone, brings scores of visitors to the state every year for the
-        geothermal features and abundant wildlife. But don't miss out on the
-        Grand Tetons, atmospheric towns like Cody and Jackson, and vast
-        stretches of wide-open plains.
-        <a href="https://www.visittheusa.com/state/wyoming">Learn more</a>
+            While the days of the Wild West seem like history to many of us,
+            Wyoming is still a land of cowboys and ranches. Even in high-end
+            Jackson Hole, western attire mixes with ski gear. True to that
+            frontier spirit, it's a land perfect for exploration. The world's
+            oldest national park, Yellowstone, brings scores of visitors to the
+            state every year for the geothermal features and abundant wildlife.
+            But don't miss out on the Grand Tetons, atmospheric towns like Cody
+            and Jackson, and vast stretches of wide-open plains.
+            <a href="https://www.visittheusa.com/state/wyoming">Learn more</a>
           </p>
           <h3 class="title">Things to do</h3>
-            <ul>
-              <li>Grand Teton National Park</li>
-              <li>Old Faithful</li>
-              <li>Grand Prismatic Spring</li>
-              <li>Mount Hood National Forest</li>
-              <li>Yellowstone Lake</li>
-            </ul>
+          <ul>
+            <li>Grand Teton National Park</li>
+            <li>Old Faithful</li>
+            <li>Grand Prismatic Spring</li>
+            <li>Mount Hood National Forest</li>
+            <li>Yellowstone Lake</li>
+          </ul>
         </div>
         <div><img src="pictures/wyoming.jpg" alt="Wyoming" /></div>
       </div>
     </div>
+    <script src="slideshow.js"></script>
   </body>
 </html>
