@@ -132,6 +132,10 @@ img {
 }
 
 
+.bottom{
+  text-align: center;
+}
+
 /* RESOURCE PAGE */
 .websiteGrid {
   display: grid;
