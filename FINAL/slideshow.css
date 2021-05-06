@@ -17,8 +17,7 @@
 .slideshow-container12,
 .slideshow-container13,
 .slideshow-container14,
-.slideshow-container15 
-{
+.slideshow-container15 {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -39,8 +38,7 @@
 .mySlides12,
 .mySlides13,
 .mySlides14,
-.mySlides15 
-{
+.mySlides15 {
   display: none;
 }
 
@@ -82,6 +80,7 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
+  text-shadow: 2px 2px black;
   /* background-color: #053C5E; */
 }
 
@@ -109,8 +108,7 @@
 .dot12,
 .dot13,
 .dot14,
-.dot15
-  {
+.dot15 {
   cursor: pointer;
   height: 15px;
   width: 15px;
