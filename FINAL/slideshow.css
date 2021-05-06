@@ -13,11 +13,11 @@
 .slideshow-container8,
 .slideshow-container9,
 .slideshow-container10,
-.slideshow-container11
-/* .slideshow-container12,
+.slideshow-container11,
+.slideshow-container12,
 .slideshow-container13,
 .slideshow-container14,
-.slideshow-container15,  */
+.slideshow-container15 
 {
   max-width: 1000px;
   position: relative;
@@ -35,11 +35,11 @@
 .mySlides8,
 .mySlides9,
 .mySlides10,
-.mySlides11
-/* .mySlides12,
+.mySlides11,
+.mySlides12,
 .mySlides13,
 .mySlides14,
-.mySlides15  */
+.mySlides15 
 {
   display: none;
 }
@@ -105,11 +105,11 @@
 .dot8,
 .dot9,
 .dot10,
-.dot11
-/* .dot12,
+.dot11,
+.dot12,
 .dot13,
 .dot14,
-.dot15,  */
+.dot15
   {
   cursor: pointer;
   height: 15px;
