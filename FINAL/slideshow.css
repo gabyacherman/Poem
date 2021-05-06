@@ -5,9 +5,9 @@
 /* Slideshow container */
 .slideshow-container,
 .slideshow-container2,
-.slideshow-container3
-/* .slideshow-container4,
-.slideshow-container5,
+.slideshow-container3,
+.slideshow-container4
+/* .slideshow-container5,
 .slideshow-container6,
 .slideshow-container7,
 .slideshow-container8,
@@ -27,9 +27,9 @@
 /* Hide the images by default */
 .mySlides,
 .mySlides2,
-.mySlides3
-/* .mySlides4,
-.mySlides5,
+.mySlides3,
+.mySlides4
+/* .mySlides5,
 .mySlides6,
 .mySlides7,
 .mySlides8,
@@ -97,9 +97,9 @@
 /* The dots/bullets/indicators */
 .dot,
 .dot2,
-.dot3
-/* .dot4,
-.dot5,
+.dot3,
+.dot4
+/* .dot5,
 .dot6,
 .dot7,
 .dot8,
@@ -109,7 +109,7 @@
 .dot12,
 .dot13,
 .dot14,
-.dot15, { */
+.dot15,  */
   {
   cursor: pointer;
   height: 15px;
