@@ -443,7 +443,7 @@ function showSlides13(n) {
 
 // slideshow 14
 var slideIndex14 = 1;
-showSlides4(slideIndex4);
+showSlides14(slideIndex14);
 
 // Next/previous controls
 function plusSlides14(n) {
