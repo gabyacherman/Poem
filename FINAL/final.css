@@ -75,6 +75,8 @@ img {
 #arrayImages img {
   width: 100%;
 }
+
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
